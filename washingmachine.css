@@ -1,0 +1,33 @@
+@keyframes washingmachine {
+    0%{
+        transform:scale(1) rotate(0deg);
+    }
+    100%{
+        transform:scale(1) rotate(360deg);
+    }
+}
+@-moz-keyframes washingmachine {
+    0%{
+        -moz-transform:scale(1) rotate(0deg);
+    }
+    100%{
+        -moz-transform:scale(1) rotate(360deg);
+    }
+}
+@-webkit-keyframes washingmachine {
+    0%{
+        -webkit-transform:scale(1) rotate(0deg);
+    }
+    100%{
+        -webkit-transform:scale(1) rotate(360deg);
+    }
+}
+
+* {
+/*	-moz-transform: rotate(2deg) !important;
+   -webkit-transform: rotate(2deg) !important;
+   transform: rotate(2deg) !important;*/
+   animation: washingmachine 60s linear infinite normal 0.5s;
+   -moz-animation: washingmachine 60s linear infinite normal 0.5s;
+   -webkit-animation: washingmachine 60s linear infinite normal 0.5s;
+}
